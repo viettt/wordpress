@@ -1,13 +1,8 @@
-<?php
-/**
- * @author Matthias Thom | http://upplex.de
- * @package upBootWP 1.1
- */
-?>
+<?php ?>
 
 <section class="no-results not-found">
     <header class="page-header">
-        <h1 class="page-title"><?php _e( 'Nothing Found', 'upbootwp' ); ?></h1>
+        <h1 class="page-title"><?php _e( 'Nothing Found', 'upbootwp' ) ?></h1>
     </header>
 
     <div class="page-content">
@@ -18,13 +13,13 @@
         <?php elseif ( is_search() ) : ?>
 
             <p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'upbootwp' ); ?></p>
-            <?php get_search_form(); ?>
+            <?php get_search_form() ?>
 
         <?php else : ?>
 
             <p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'upbootwp' ); ?></p>
-            <?php get_search_form(); ?>
+            <?php get_search_form() ?>
 
-        <?php endif; ?>
+        <?php endif ?>
     </div>
 </section>

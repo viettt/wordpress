@@ -1,13 +1,5 @@
-<?php
-/**
- * The Header for our theme.
- *
- * Displays all of the <head> section and everything up till <main id="main">
- *
- * @author Matthias Thom | http://upplex.de
- * @package upBootWP 1.1
- */
-?><!DOCTYPE html>
+<?php?>
+<!DOCTYPE html>
 <html <?php language_attributes() ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ) ?>">
@@ -48,11 +40,10 @@
                                       'walker' => new Upbootwp_Walker_Nav_Menu());
                         wp_nav_menu($args);
                         ?>
-                    </div><!-- .col-md-12 -->
-                </div><!-- row -->
-            </div><!-- container -->
+                    </div>
+                </div>
+            </div>
         </nav>
 
-    </header><!-- #masthead -->
-
+    </header>
     <div id="content" class="site-content">

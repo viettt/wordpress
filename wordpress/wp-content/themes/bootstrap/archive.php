@@ -1,14 +1,4 @@
-<?php
-/**
- * The template for displaying Archive pages.
- *
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
- *
- * @author Matthias Thom | http://upplex.de
- * @package upBootWP 1.1
- */
-
-get_header(); ?>
+<?php get_header() ?>
     <div class="container">
         <div class="row">
             <div class="col-md-8">
@@ -95,7 +85,7 @@ get_header(); ?>
             </div>
 
             <div class="col-md-4">
-                <?php get_sidebar(); ?>
+                <?php get_sidebar() ?>
             </div>
         </div>
     </div>
