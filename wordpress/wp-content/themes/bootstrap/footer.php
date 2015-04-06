@@ -7,15 +7,14 @@
                 <footer id="colophon" class="site-footer" role="contentinfo">
                     <div class="site-info">
                         <?php do_action( 'upbootwp_credits' ); ?>
-                        &copy; <?php bloginfo('name'); ?> <?php the_time('Y') ?>
-                        <span class="sep"> | </span>
-                        <?php printf(__('Theme: %1$s by %2$s.', 'upbootwp' ), 'upBootWP', '<a href="http://upplex.de" rel="designer">upplex</a>'); ?>
+                        &copy;
+                        <a href="http://wordpress.thanhviet.com" rel="designer"><?php bloginfo('name') ?><?php the_time('Y') ?></a>
                     </div>
                 </footer>
             </div>
         </div>
     </div>
-</div>
+</div><!-- #page -->
 
 <?php wp_footer(); ?>
 
